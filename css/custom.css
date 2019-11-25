@@ -1,0 +1,332 @@
+
+
+body {
+        padding-top: 20px;
+        border-top: 10px solid #f45900;
+        font-family: arial !important;
+      }
+
+   /*   .clear {
+        margin-top: 60px;
+        margin-bottom: 60px;
+      }*/
+
+      .block1 {
+        height: 440px;
+        margin-bottom: 60px;
+      }
+
+      .block2 {
+        height: 200px;
+      }
+
+      .section-max-width {
+        max-width: 800px;
+      }
+
+      b {
+        color: black;
+      }
+
+      /* * {
+        border: 1px solid #000;
+      }
+
+*/
+
+
+.navbar a{
+	color: #000 !important; 
+}
+
+    a.navbar-brand  {
+    	font-size: 28px;
+    }
+
+
+div.navbar-header {
+	
+	font-weight: bold;
+}
+
+
+.navbar-fixed-top {
+    
+    border-width: 0 0 1px;
+}
+
+.nav>li>a {
+    text-decoration: none;
+    background-color: #fff !important;
+    border-bottom: 4px solid #fff;
+    font-weight: bold;
+}
+
+
+
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #fff !important;
+    border-bottom: 4px solid #f45900;
+}
+
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 3px;
+    border-radius: 1px;
+    background: #000;
+}
+
+
+      #gp-slider {
+
+         background: #000;
+    color: #fff;
+    /* display: table-cell; */
+    /* vertical-align: middle; */
+    padding-top: 16%;
+    padding-bottom: 22%;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 7%;
+    background-image: url(../img/gp1.jpg);
+    background-color: #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+      #gp-slider *. {
+
+        color: #fff !important
+      }
+
+      /* Need to fix this issue */
+
+      #gp-slider h1 b {
+        color: #fff;
+
+
+      }
+
+
+      .intro-box {
+      	text-align: left;
+      	border-top: 2px solid orange;
+      	border-bottom: 2px solid orange;
+      }
+
+      /*.border {border: 1px solid #000}
+*/
+
+      .projects {
+        text-align: left;
+      }
+
+      #projects {
+        text-align: left;
+      }
+
+      .project-box {
+        text-align: left;
+      }
+
+      .projects .center {
+        text-align: center
+      }
+
+
+
+      #projects-box .row {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #ededed;
+        margin-bottom: 20px;
+        padding-left: 0px;
+
+
+
+      }
+
+
+      span.category {
+        background: #000;
+        color: #fff;
+        font-weight: bold;
+        padding: 0 8px 0 8px;
+        display: ;
+        display: inline-block;
+
+      }
+
+
+      a.button-main {
+background: #000;
+color: #fff;
+padding: 8px 12px;
+text-decoration: none;
+font-weight: bold;
+
+      }
+
+
+.button-main:hover {
+background: #f45900;
+color: #fff;
+padding: 8px 12px;
+text-decoration: none;
+
+      }
+
+
+
+
+
+      button {
+        background: #000;
+        color: #fff;
+        border: none;
+        padding: 7px 25px;
+      }
+
+        button: hover {
+        background:red ;
+        color: #fff;
+        border: none;
+      }
+
+      button: focused {
+        background:red ;
+        color: #fff;
+        border: none;
+      }
+
+
+footer {
+	margin-bottom: 40px;
+	margin-top: 30px;
+}
+
+
+
+.project-img {
+	margin-bottom: 20px;
+}
+
+
+
+/*DJ Spinall Gallery*/
+.gallery_product  img{
+margin-bottom: 30px;
+}
+
+.bg-clr-blk h3 {
+	margin-top: 10px
+
+}
+
+.project-box  a{
+	color: #000;
+	
+}
+
+.project-box a:hover  {
+ color:#777777;
+ text-decoration: none; 
+}
+
+
+.capabilities {
+
+}
+
+
+.capabilities ul li {
+	list-style-type: none;
+	text-align: ;
+	margin-bottom: 5px;
+	widows: 50%;
+	padding: 2px 5px;
+	
+	border-bottom: 1px solid #efefef;
+}
+
+
+.project-box a:hover img  {
+  opacity: 0.8;   
+}
+
+
+.btn-primary {
+  background: #f45900;
+  border: none; 
+  border-radius: 0px;
+}
+
+.btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #000;
+    border-color: transparent;
+}
+
+
+/*Drop Down Menu*/
+
+.dropdown-menu .sub-menu {
+  left: 100%;
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  margin-top: -1px;
+}
+
+.dropdown-menu li:hover .sub-menu {
+  visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.nav-tabs .dropdown-menu,
+.nav-pills .dropdown-menu,
+.navbar .dropdown-menu {
+  margin-top: 0;
+}
+
+.navbar .sub-menu:before {
+  border-bottom: 7px solid transparent;
+  border-left: none;
+  border-right: 7px solid rgba(0, 0, 0, 0.2);
+  border-top: 7px solid transparent;
+  left: -7px;
+  top: 10px;
+}
+
+.navbar .sub-menu:after {
+  border-top: 6px solid transparent;
+  border-left: none;
+  border-right: 6px solid #fff;
+  border-bottom: 6px solid transparent;
+  left: 10px;
+  top: 11px;
+  left: -6px;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #eee;
+    border-color: #f45900 !important;
+
+    }
+
+    .dropdown-menu>li>a {
+    display: block;
+    padding: 16px 20px !important;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
